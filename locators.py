@@ -48,3 +48,6 @@ class Locators:
     # Локатор для перехода к булкам
     BUNS_BUTTON = (By.XPATH, "//section[@class='BurgerIngredients_ingredients__1N8v2']//span[text()='Булки']")  # Кнопка Булки
     BUNS_MENU = (By.XPATH,"//div[@class='BurgerIngredients_ingredients__menuContainer__Xu3Mo']//h2[text()='Булки']")  # Меню Булки
+
+    # Локатор для раздела конструктор
+    ACTIVE_DIV_IN_CONSTRUCTOR = By.XPATH, './/div[contains(@class, "current")]/span' 
